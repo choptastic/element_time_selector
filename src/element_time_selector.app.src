@@ -1,0 +1,14 @@
+{application, element_time_selector,
+ [
+  {description, "An Erlang element_time_selector library"},
+  {vsn, "1"},
+  {modules, [
+             element_time_selector
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
